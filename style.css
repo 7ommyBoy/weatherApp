@@ -1,15 +1,60 @@
 #city-input, #weather-output {
-    max-width: 400px;
-    margin: 0 auto;
-    
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: hover;
+
 }
   
 .banner {
-    color: #000000;
+    color:  black1;
     font-family: sans-serif;
 }
 
 body {
-  background-color: #bfa6bf;
-  
+width: 100%;
+height: 100%;
+/* Created with https://www.css-gradient.com */
+background: #6A4EDC;
+background: -webkit-radial-gradient(center, #6A4EDC, #031844);
+background: -moz-radial-gradient(center, #6A4EDC, #031844);
+background: radial-gradient(ellipse at center, #6A4EDC, #031844);
+
 }
+
+button {
+  border: hover;
+}
+
+.card-deck{
+  box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 20px;
+  border: hover;
+  background-color: #3333c1;
+  padding-bottom: 50%;
+
+}
+
+.card-deck:hover {
+  box-shadow: 0 35px 50px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+div.card-header {
+  background-color: #4343c7;
+  box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 80px;
+  border: hover;  
+}
+
+
+.card-header:hover {
+  box-shadow: 0 35px 50px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+weather-type, li, h4, h1  {
+  color:white;
+}
+
